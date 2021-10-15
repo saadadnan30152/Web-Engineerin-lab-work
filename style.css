@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding:0;
+    background:url("hasham.png");
+    background-size:cover;
+    font-family: sans-serif;
+    color:white;
+    }
+    .login-form{
+    background-color:rgb(0,0,0,.8);
+    width:380px;
+    height:350;
+    margin:0;
+    padding:35px;
+    position:absolute;
+    top:25%;
+    left:25%;
+    box-sizing:border-box;
+    transform: translate(-50%, -50%);
+    }
+    h1{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+    text-align:center;
+    }
+    p{
+    margin:0;
+    padding:0;
+    font-size:75px;
+    }
+    input{
+    width:100%;
+    margin-bottom:20px;
+    }
+    .login-form input[type="text"], input[type="password"]
+    {
+        border: none;
+        border-bottom: 1px solid;
+        outline:none;
+    }
+    
+    .login-form input[type="button"]
+    {
+    border: none;
+    height: 40px;
+    outline: none;
+    background-color: blanchedalmond;
+    color: blue;
+    font-size: 18px;
+    border-radius: 20px;
+    }
+    .login-form input[type="button"]:hover
+    {
+    background-color: coral;
+    color: cornsilk;
+    cursor: pointer;
+    }
+    .login-form a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px
+    }
+    .login-form img {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: -60px;
+    }
+    
